@@ -1,0 +1,8 @@
+<launch>
+
+    <param name="use_sim_time" value="false"/>
+
+    <node pkg="imu_uwb_fusion" type="imu_uwb_fusion_node" name="imu_uwb_fusion_node" output="screen">
+    </node>
+
+</launch>
